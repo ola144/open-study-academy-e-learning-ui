@@ -45,15 +45,16 @@ export const getAllStudents = async (
   classId?: string,
 ) => {
   try {
-    const params = new URLSearchParams({
-      page: String(Math.max(1, page)),
-      limit: String(limit),
-    });
+    const params = new URLSearchParams();
 
-    if (search?.trim()) params.set("search", search.trim());
-    if (classId?.trim()) params.set("classId", classId.trim());
+    if (page) params.set("page", String(page));
+    if (limit) params.set("limit", String(limit));
+    if (search) params.set("search", search);
+    if (classId) params.set("classId", classId);
 
-    const { data } = await api.get<StudentsResponse>(`/students?${params}`);
+    const { data } = await api.get<StudentsResponse>(
+      `/students${params ? `?${params}` : ""}`,
+    );
 
     return data;
   } catch (error) {
