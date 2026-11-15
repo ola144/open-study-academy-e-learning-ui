@@ -1,4 +1,4 @@
-name: Open Study Academy E-Learning Platform
+name: Deploy Open Study Academy E-Learning Platform To Vercel
 
 on:
   push:
