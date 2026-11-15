@@ -1,0 +1,117 @@
+.admin-detail-back.MuiButton-root {
+  width: fit-content;
+  padding-left: 0;
+  color: #397354;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.admin-detail-hero.MuiPaper-root {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 24px;
+  border: 1px solid #e8ece8;
+  background: #fff;
+}
+
+.admin-detail-avatar.MuiAvatar-root {
+  width: 64px;
+  height: 64px;
+  background: #e8f0ea;
+  color: #356447;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.admin-detail-heading-copy {
+  min-width: 0;
+  flex: 1;
+}
+
+.admin-detail-card.MuiPaper-root {
+  padding: 22px;
+  border: 1px solid #e8ece8;
+  background: #fff;
+}
+
+.admin-detail-card-title.MuiTypography-root {
+  margin-bottom: 18px;
+  color: #26332b;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.admin-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px 28px;
+}
+
+.admin-detail-field {
+  display: grid;
+  min-width: 0;
+  gap: 5px;
+}
+
+.admin-detail-field-label {
+  color: #808a83;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.admin-detail-field-value {
+  overflow-wrap: anywhere;
+  color: #344139;
+  font-size: 14px;
+}
+
+.admin-detail-field-value a {
+  color: #397354;
+  text-decoration: none;
+}
+
+.admin-detail-field-value a:hover {
+  text-decoration: underline;
+}
+
+.admin-detail-loading.MuiPaper-root {
+  display: flex;
+  min-height: 220px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border: 1px solid #e8ece8;
+  color: #69756d;
+}
+
+.admin-detail-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 640px) {
+  .admin-detail-hero.MuiPaper-root {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 18px;
+  }
+
+  .admin-detail-hero > .MuiChip-root {
+    margin-left: 82px;
+  }
+
+  .admin-detail-card.MuiPaper-root {
+    padding: 18px;
+  }
+
+  .admin-detail-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+}

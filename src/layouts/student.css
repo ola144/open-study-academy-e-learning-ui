@@ -1,0 +1,185 @@
+.student-shell {
+  min-height: 100vh;
+  background: #f5f7f4;
+}
+.student-appbar.MuiAppBar-root {
+  z-index: 1201;
+  border-bottom: 1px solid #e5e9e5;
+  background: #fff;
+  color: #202a24;
+}
+.student-toolbar.MuiToolbar-root {
+  min-height: 72px;
+  padding: 0 32px;
+}
+.student-toolbar-title h1 {
+  font-size: 19px;
+  font-weight: 600;
+}
+.student-toolbar-title .MuiTypography-caption {
+  display: block;
+  margin-top: 1px;
+  color: #7a847d;
+  font-size: 12px;
+}
+.student-toolbar-spacer,
+.student-drawer-spacer {
+  flex: 1;
+}
+.student-toolbar-avatar.MuiAvatar-root {
+  width: 36px;
+  height: 36px;
+  background: #e5eee8;
+  color: #285641;
+  font-size: 13px;
+  font-weight: 700;
+}
+.student-menu-button.MuiIconButton-root {
+  margin-right: 2px;
+}
+.student-main {
+  min-height: 100vh;
+  padding-bottom: 36px;
+}
+.student-content {
+  width: min(100%, 1500px);
+  margin: 0 auto;
+  padding: 28px 32px;
+}
+.student-drawer-content {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  padding: 26px 16px 16px;
+}
+.student-shell .MuiDrawer-paper {
+  box-sizing: border-box;
+  border-right: 1px solid #e5e9e5;
+  background: #fff;
+}
+.student-brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 0 10px 35px;
+}
+.student-brand-mark {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border-radius: 10px 10px 10px 3px;
+  background: #28624e;
+  color: #fff;
+}
+.student-brand-mark svg {
+  font-size: 21px;
+}
+.student-brand strong,
+.student-brand span,
+.student-profile-summary strong,
+.student-profile-summary span {
+  display: block;
+}
+.student-brand strong {
+  color: #233a2e;
+  font-size: 18px;
+  font-weight: 700;
+}
+.student-brand div:last-child span {
+  margin-top: 3px;
+  color: #89928c;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.student-nav-label {
+  padding: 0 12px 10px;
+  color: #99a29b;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.student-nav-list {
+  display: grid;
+  gap: 4px;
+  height: fit-content;
+  overflow-y: auto;
+}
+.student-nav-item.MuiListItemButton-root {
+  min-height: 30px;
+  border-radius: 7px;
+  color: #647169;
+}
+.student-nav-item .MuiListItemIcon-root {
+  min-width: 38px;
+  color: inherit;
+}
+.student-nav-item .MuiListItemIcon-root svg {
+  font-size: 20px;
+}
+.student-nav-item .MuiListItemText-primary {
+  font-size: 14px;
+  font-weight: 500;
+}
+.student-nav-item.active {
+  background: #edf4ef;
+  color: #28624e;
+}
+.student-nav-item.active:hover {
+  background: #e6f0e9;
+}
+.student-profile-summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 7px 0;
+}
+.student-sidebar-avatar.MuiAvatar-root {
+  width: 34px;
+  height: 34px;
+  background: #f4e8df;
+  color: #845039;
+  font-size: 12px;
+  font-weight: 700;
+}
+.student-profile-summary > div {
+  flex: 1;
+  min-width: 0;
+}
+.student-profile-summary strong {
+  overflow: hidden;
+  color: #344139;
+  font-size: 12px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.student-profile-summary div span {
+  margin-top: 2px;
+  color: #89928c;
+  font-size: 11px;
+}
+.student-online-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #64a278;
+}
+@media (max-width: 899px) {
+  .student-toolbar.MuiToolbar-root {
+    min-height: 64px;
+    padding: 0 20px;
+  }
+  .student-content {
+    padding: 24px 20px;
+  }
+}
+@media (max-width: 480px) {
+  .student-toolbar.MuiToolbar-root {
+    padding: 0 14px;
+  }
+  .student-content {
+    padding: 20px 14px;
+  }
+}

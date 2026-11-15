@@ -1,0 +1,62 @@
+client/
+│
+├── src/
+│   │
+│   ├── app/
+│   │   ├── router.tsx
+│   │   ├── providers.tsx
+│   │   └── queryClient.ts
+│   │
+│   ├── components/
+│   │   ├── common/
+│   │   ├── forms/
+│   │   ├── tables/
+│   │   ├── charts/
+│   │   └── feedback/
+│   │
+│   ├── layouts/
+│   │   ├── AdminLayout.tsx
+│   │   ├── TeacherLayout.tsx
+│   │   └── StudentLayout.tsx
+│   │
+│   ├── pages/
+│   │   ├── auth/
+│   │   ├── admin/
+│   │   ├── teacher/
+│   │   └── student/
+│   │
+│   ├── features/
+│   │   ├── auth/
+│   │   ├── students/
+│   │   ├── teachers/
+│   │   ├── subjects/
+│   │   ├── topics/
+│   │   ├── evaluations/
+│   │   └── progress/
+│   │
+│   ├── hooks/
+│   │
+│   ├── services/
+│   │   ├── api.ts
+│   │   ├── auth.api.ts
+│   │   ├── subject.api.ts
+│   │   ├── topic.api.ts
+│   │   └── evaluation.api.ts
+│   │
+│   ├── stores/
+│   │   └── auth.store.ts
+│   │
+│   ├── types/
+│   │
+│   ├── utils/
+│   │
+│   ├── theme/
+│   │   ├── theme.ts
+│   │   └── palette.ts
+│   │
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── .env
+├── .env.example
+└── package.json

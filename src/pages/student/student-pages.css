@@ -1,0 +1,1493 @@
+.student-page {
+  display: grid;
+  gap: 22px;
+}
+.student-page-heading,
+.student-welcome {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+.student-eyebrow.MuiTypography-root {
+  margin-bottom: 7px;
+  color: #758078;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.student-page-title.MuiTypography-root {
+  color: #202a24;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.student-page-description.MuiTypography-root {
+  margin-top: 7px;
+  color: #737e76;
+  font-size: 14px;
+}
+.student-welcome {
+  align-items: center;
+}
+.student-welcome .student-page-title.MuiTypography-root {
+  max-width: 650px;
+}
+.student-welcome-avatar.MuiAvatar-root {
+  width: 54px;
+  height: 54px;
+  background: #e7efe9;
+  color: #356447;
+  font-size: 16px;
+  font-weight: 700;
+}
+.student-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+.student-stat-card.MuiPaper-root {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 17px;
+  border: 1px solid #e8ece8;
+}
+.student-stat-icon {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 9px;
+}
+.student-stat-icon.green {
+  background: #e9f2ec;
+  color: #397354;
+}
+.student-stat-icon.coral {
+  background: #fbede8;
+  color: #bd694c;
+}
+.student-stat-icon.gold {
+  background: #f7f1e4;
+  color: #9a7938;
+}
+.student-stat-icon.yellow {
+  background: #eceed3;
+  color: #d6d912;
+}
+.student-stat-card > div {
+  display: grid;
+  gap: 4px;
+}
+.student-stat-card > div > span {
+  color: #6e7a71;
+  font-size: 11px;
+}
+.student-stat-card strong {
+  color: #253229;
+  font-size: 22px;
+  font-weight: 600;
+}
+.student-stat-card strong small {
+  color: #8b958d;
+  font-size: 11px;
+  font-weight: 400;
+}
+.student-dashboard-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(280px, 1fr);
+  gap: 16px;
+}
+.student-panel.MuiPaper-root {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid #e8ece8;
+  background: #fff;
+}
+.student-panel-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+.student-panel-heading h3 {
+  color: #26332b;
+  font-size: 15px;
+  font-weight: 600;
+}
+.student-panel-heading p {
+  margin-top: 4px;
+  color: #808a83;
+  font-size: 12px;
+}
+.student-panel-heading .MuiButton-root {
+  margin: -5px -8px 0 0;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.student-subject-progress-list {
+  display: grid;
+  margin-top: 13px;
+}
+.student-subject-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid #edf0ed;
+}
+.student-subject-progress-row:last-child {
+  border-bottom: 0;
+}
+.student-course-icon {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 8px;
+}
+.student-course-icon.green {
+  background: #e9f2ec;
+  color: #397354;
+}
+.student-course-icon.blue {
+  background: #e9f0f4;
+  color: #54768b;
+}
+.student-course-icon.coral {
+  background: #fbede8;
+  color: #bd694c;
+}
+.student-course-icon.gold {
+  background: #f7f1e4;
+  color: #9a7938;
+}
+.student-course-icon svg {
+  font-size: 20px;
+}
+.student-subject-progress-main {
+  min-width: 0;
+  flex: 1;
+}
+.student-subject-progress-copy {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.student-subject-progress-copy strong {
+  overflow: hidden;
+  color: #354239;
+  font-size: 11px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.student-subject-progress-copy span {
+  flex: 0 0 auto;
+  color: #8a948c;
+  font-size: 10px;
+}
+.student-subject-progress-main .MuiLinearProgress-root,
+.student-subject-card .MuiLinearProgress-root {
+  height: 6px;
+  border-radius: 4px;
+  background: #edf1ed;
+}
+.student-subject-progress-main .MuiLinearProgress-bar,
+.student-subject-card .MuiLinearProgress-bar {
+  border-radius: 4px;
+  background: #5b9670;
+}
+.student-subject-progress-row > .MuiButton-root {
+  min-width: 0;
+  padding: 4px 8px;
+  font-size: 10px;
+}
+.student-next-panel {
+  display: flex;
+  flex-direction: column;
+}
+.student-next-card {
+  display: grid;
+  gap: 9px;
+  margin-top: 19px;
+  padding: 17px;
+  border: 1px solid #eee9df;
+  border-radius: 7px;
+  background: #fbf8f1;
+}
+.student-next-icon {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border-radius: 8px;
+  background: #f2e6ce;
+  color: #8d6c31;
+}
+.student-next-card .MuiChip-root {
+  width: fit-content;
+  height: 22px;
+  background: #f6ecd9;
+  color: #92733c;
+  font-size: 9px;
+  font-weight: 700;
+}
+.student-next-card h4 {
+  color: #344139;
+  font-size: 14px;
+  font-weight: 600;
+}
+.student-next-card p {
+  color: #78837b;
+  font-size: 11px;
+}
+.student-next-card .MuiButton-root {
+  margin-top: 7px;
+  font-size: 11px;
+}
+.student-empty-inline {
+  margin: auto;
+  padding: 30px 0;
+  color: #7a857d;
+  font-size: 12px;
+  text-align: center;
+}
+.student-recent-list {
+  display: grid;
+  margin-top: 12px;
+}
+.student-recent-row {
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr) minmax(110px, auto) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 0;
+  border-bottom: 1px solid #edf0ed;
+}
+.student-recent-row:last-child {
+  border-bottom: 0;
+}
+.student-recent-check {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 700;
+}
+.student-recent-check.green {
+  background: #e9f2ec;
+  color: #397354;
+}
+.student-recent-check.coral {
+  background: #fbede8;
+  color: #bd694c;
+}
+.student-recent-check.blue {
+  background: #e9f0f4;
+  color: #54768b;
+}
+.student-recent-row > div {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+.student-recent-row strong {
+  overflow: hidden;
+  color: #354239;
+  font-size: 11px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.student-recent-row > div span,
+.student-recent-detail {
+  color: #89938b;
+  font-size: 10px;
+}
+.student-recent-row .MuiButton-root {
+  font-size: 10px;
+}
+.student-demo-note {
+  color: #8a948d;
+  font-size: 10px;
+}
+.student-recent-panel > .student-demo-note {
+  display: block;
+  margin-top: 12px;
+}
+.student-count-chip.MuiChip-root {
+  height: 30px;
+  border-color: #dae4dc;
+  background: #fff;
+  color: #52705a;
+  font-size: 11px;
+}
+.student-search-field {
+  width: min(100%, 360px);
+}
+.student-search-field .MuiOutlinedInput-root {
+  background: #fff;
+  font-size: 13px;
+}
+.student-search-field .MuiInputAdornment-root {
+  color: #89948c;
+}
+.student-subject-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.student-subject-card.MuiCard-root {
+  overflow: hidden;
+  border-color: #e6ebe6;
+  border-radius: 8px;
+}
+.student-subject-topline {
+  height: 5px;
+}
+.student-subject-topline.green {
+  background: #69a17a;
+}
+.student-subject-topline.blue {
+  background: #74a1b6;
+}
+.student-subject-topline.coral {
+  background: #dc9275;
+}
+.student-subject-topline.gold {
+  background: #d4b16b;
+}
+.student-subject-card .MuiCardContent-root {
+  padding: 18px 18px 14px;
+}
+.student-subject-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.student-category-chip.MuiChip-root {
+  height: 22px;
+  background: #f0f3f0;
+  color: #69776e;
+  font-size: 9px;
+}
+.student-subject-card-title.MuiTypography-root {
+  min-height: 42px;
+  margin-top: 17px;
+  color: #2c3930;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.student-subject-description.MuiTypography-root {
+  min-height: 48px;
+  margin-top: 6px;
+  color: #78837b;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.student-teacher-line,
+.student-progress-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 16px;
+  color: #839087;
+  font-size: 10px;
+}
+.student-teacher-line strong,
+.student-progress-caption strong {
+  color: #4d5c51;
+  font-size: 10px;
+  font-weight: 600;
+}
+.student-progress-caption {
+  margin-top: 12px;
+  margin-bottom: 7px;
+}
+.student-subject-card .MuiCardActions-root {
+  padding: 0 12px 10px;
+}
+.student-subject-card .MuiCardActions-root .MuiButton-root {
+  justify-content: space-between;
+  font-size: 11px;
+}
+.student-empty-state {
+  padding: 42px 16px;
+  color: #768178;
+  font-size: 13px;
+  text-align: center;
+}
+.student-back-link.MuiButton-root {
+  width: fit-content;
+  margin-left: -8px;
+  color: #557060;
+  font-size: 11px;
+}
+.student-subject-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 30px;
+  border: 1px solid #e6ece6;
+  border-radius: 8px;
+  background: #eef5ef;
+}
+.student-subject-hero.blue {
+  background: #eef3f6;
+}
+.student-subject-hero.coral {
+  background: #fbf0ec;
+}
+.student-subject-hero.gold {
+  background: #f8f4e9;
+}
+.student-subject-hero-copy {
+  max-width: 700px;
+}
+.student-subject-hero-copy .MuiChip-root {
+  height: 23px;
+  background: rgb(255 255 255 / 75%);
+  color: #58715e;
+  font-size: 10px;
+}
+.student-subject-hero-copy h2 {
+  margin-top: 12px;
+  color: #26372c;
+  font-size: 26px;
+  font-weight: 600;
+}
+.student-subject-hero-copy > p {
+  margin-top: 7px;
+  color: #68786d;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.student-subject-hero-meta {
+  display: flex;
+  gap: 24px;
+  margin-top: 17px;
+  color: #758379;
+  font-size: 10px;
+}
+.student-subject-hero-meta strong {
+  margin-left: 5px;
+  color: #3f5647;
+  font-weight: 600;
+}
+.student-course-progress-ring {
+  display: grid;
+  width: 92px;
+  height: 92px;
+  flex: 0 0 auto;
+  align-content: center;
+  justify-items: center;
+  border: 5px solid rgb(91 150 112 / 26%);
+  border-top-color: #5b9670;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 65%);
+}
+.student-course-progress-ring strong {
+  color: #315b40;
+  font-size: 21px;
+  font-weight: 600;
+}
+.student-course-progress-ring span {
+  color: #718176;
+  font-size: 9px;
+}
+.student-section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 6px;
+}
+.student-section-heading h3 {
+  color: #2c3930;
+  font-size: 16px;
+  font-weight: 600;
+}
+.student-section-heading p,
+.student-section-heading > span {
+  margin-top: 4px;
+  color: #879189;
+  font-size: 10px;
+}
+.student-subject-progress-bar.MuiLinearProgress-root {
+  height: 6px;
+  border-radius: 4px;
+  background: #e7ece7;
+}
+.student-subject-progress-bar .MuiLinearProgress-bar {
+  background: #5b9670;
+}
+.student-topic-list {
+  display: grid;
+  gap: 8px;
+}
+.student-topic-list-item.MuiPaper-root {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto auto auto;
+  align-items: center;
+  gap: 13px;
+  padding: 13px 16px;
+  border: 1px solid #e8ece8;
+}
+.student-topic-state {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border-radius: 50%;
+  color: #819087;
+  font-size: 10px;
+  font-weight: 700;
+}
+.student-topic-state.complete {
+  background: #e9f2ec;
+  color: #548763;
+}
+.student-topic-state svg {
+  font-size: 17px;
+}
+.student-topic-state.current {
+  border: 1px solid #dae5dc;
+  background: #f7faf7;
+}
+.student-topic-list-copy {
+  display: grid;
+  min-width: 0;
+  gap: 4px;
+}
+.student-topic-list-copy strong {
+  color: #354239;
+  font-size: 11px;
+  font-weight: 600;
+}
+.student-topic-list-copy span {
+  overflow: hidden;
+  color: #89938b;
+  font-size: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.student-score-chip.MuiChip-root {
+  height: 22px;
+  background: #eaf3ec;
+  color: #3c7550;
+  font-size: 10px;
+  font-weight: 600;
+}
+.student-topic-duration {
+  color: #879189;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.student-topic-list-item .MuiButton-root {
+  min-width: 88px;
+  font-size: 10px;
+}
+.student-lesson-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+.student-lesson-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #77847a;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.student-lesson-meta > svg {
+  font-size: 17px;
+}
+.student-complete-chip.MuiChip-root,
+.student-current-chip.MuiChip-root {
+  height: 22px;
+  background: #eaf3ec;
+  color: #3c7550;
+  font-size: 9px;
+}
+.student-current-chip.MuiChip-root {
+  background: #f8f0e3;
+  color: #926d35;
+}
+.student-lesson-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(250px, 0.8fr);
+  align-items: start;
+  gap: 18px;
+}
+.student-lesson-main {
+  display: grid;
+  justify-items: start;
+  gap: 15px;
+}
+.student-lesson-content {
+  display: grid;
+  width: 100%;
+  gap: 10px;
+}
+.student-lesson-block.MuiPaper-root {
+  width: 100%;
+  padding: 22px;
+  border: 1px solid #e8ece8;
+}
+.student-lesson-block-label {
+  display: block;
+  margin-bottom: 12px;
+  color: #4d805c;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+.student-lesson-block p {
+  color: #45534a;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.student-complete-alert.MuiAlert-root {
+  width: 100%;
+}
+.student-topic-pager {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 8px;
+}
+.student-topic-pager .MuiButton-root {
+  max-width: 48%;
+  font-size: 10px;
+}
+.student-lesson-aside {
+  display: grid;
+  gap: 14px;
+}
+.student-lesson-outline.MuiPaper-root {
+  padding: 16px;
+}
+.student-lesson-outline h3,
+.student-lesson-evaluation h3 {
+  color: #354239;
+  font-size: 13px;
+  font-weight: 600;
+}
+.student-outline-list {
+  display: grid;
+  gap: 3px;
+  margin-top: 11px;
+}
+.student-outline-item.MuiButton-root {
+  min-height: 37px;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 6px 7px;
+  color: #68766d;
+  font-size: 10px;
+  text-align: left;
+}
+.student-outline-item.selected {
+  background: #edf4ef;
+  color: #2e6645;
+}
+.student-outline-item > span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.student-outline-number {
+  display: inline-grid;
+  width: 18px;
+  place-items: center;
+  color: #879188;
+  font-size: 9px;
+}
+.student-lesson-evaluation.MuiPaper-root {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  background: #f5f8f4;
+}
+.student-lesson-evaluation-icon {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border-radius: 7px;
+  background: #e4eee6;
+  color: #427652;
+}
+.student-lesson-evaluation-icon svg {
+  font-size: 18px;
+}
+.student-lesson-evaluation > p {
+  color: #78837b;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.student-lesson-evaluation .MuiButton-root {
+  font-size: 10px;
+}
+.student-count-chip.MuiChip-root {
+  border: 1px solid #dae4dc;
+}
+.student-evaluation-list {
+  display: grid;
+  gap: 10px;
+}
+.student-evaluation-card.MuiPaper-root {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1.3fr) minmax(150px, 1fr) auto auto;
+  align-items: center;
+  gap: 14px;
+  padding: 15px;
+  border: 1px solid #e8ece8;
+}
+.student-evaluation-card-icon {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border-radius: 8px;
+  background: #e9f2ec;
+  color: #397354;
+}
+.student-evaluation-card-icon.upcoming {
+  background: #f1f2f0;
+  color: #7a857d;
+}
+.student-evaluation-card-icon.completed {
+  background: #e9f0f4;
+  color: #54768b;
+}
+.student-evaluation-card-copy,
+.student-evaluation-card-meta {
+  display: grid;
+  gap: 4px;
+}
+.student-evaluation-card-copy strong {
+  color: #354239;
+  font-size: 11px;
+  font-weight: 600;
+}
+.student-evaluation-card-copy span,
+.student-evaluation-card-meta span {
+  color: #879189;
+  font-size: 10px;
+}
+.student-status-chip.MuiChip-root {
+  height: 22px;
+  background: #f8f0e3;
+  color: #926d35;
+  font-size: 9px;
+}
+.student-status-chip.completed.MuiChip-root {
+  background: #eaf3ec;
+  color: #3c7550;
+}
+.student-status-chip.upcoming.MuiChip-root {
+  background: #f0f1f0;
+  color: #717a73;
+}
+.student-evaluation-card > .MuiButton-root {
+  min-width: 90px;
+  font-size: 10px;
+}
+.student-back-link.MuiButton-root {
+  text-transform: none;
+}
+.student-evaluation-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.student-evaluation-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.student-evaluation-facts .MuiChip-root {
+  height: 28px;
+  border-color: #dfe6df;
+  color: #68766d;
+  font-size: 10px;
+}
+.student-question-list {
+  display: grid;
+  justify-items: start;
+  gap: 14px;
+}
+.student-question-card.MuiPaper-root {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #e8ece8;
+}
+.student-question-topline {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  color: #8b958d;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.student-question-card .MuiFormControl-root {
+  width: 100%;
+}
+.student-question-title.MuiFormLabel-root {
+  margin-bottom: 10px;
+  color: #344139;
+  font-size: 14px;
+  font-weight: 600;
+}
+.student-question-card .MuiFormControlLabel-root {
+  min-height: 38px;
+  margin-left: 0;
+  border: 1px solid #edf0ed;
+  border-radius: 6px;
+  color: #66736a;
+  font-size: 11px;
+}
+.student-question-card .MuiFormControlLabel-root.Mui-checked {
+  border-color: #b6d0bd;
+  background: #f3f8f4;
+}
+.student-question-card .MuiRadio-root {
+  padding: 7px 10px;
+}
+.student-question-card .correct-answer {
+  border-color: #b7d2bd;
+  background: #f1f7f2;
+}
+.student-answer-explanation {
+  margin-top: 12px;
+  padding: 11px;
+  border-radius: 5px;
+  background: #f2f6f2;
+  color: #56715d;
+  font-size: 11px;
+  line-height: 1.55;
+}
+.student-submit-evaluation.MuiButton-root {
+  min-width: 200px;
+}
+.student-result-alert.MuiAlert-root {
+  border: 1px solid #dce8de;
+  font-size: 12px;
+}
+.student-result-panel.MuiPaper-root {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  padding: 42px 24px;
+  border: 1px solid #e8ece8;
+  text-align: center;
+}
+.student-result-icon {
+  display: grid;
+  width: 50px;
+  height: 50px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e9f2ec;
+  color: #397354;
+}
+.student-result-icon svg {
+  font-size: 27px;
+}
+.student-result-panel .student-page-title {
+  margin-top: 4px;
+}
+.student-result-panel .student-page-description {
+  max-width: 430px;
+}
+.student-result-panel .MuiButton-root {
+  margin-top: 8px;
+}
+.student-progress-trend.MuiChip-root {
+  height: 30px;
+  background: #edf4ef;
+  color: #3d7952;
+  font-size: 10px;
+}
+.student-progress-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.student-progress-stats > .MuiPaper-root {
+  display: grid;
+  gap: 8px;
+  padding: 17px 19px;
+  border: 1px solid #e8ece8;
+}
+.student-progress-stats > .MuiPaper-root > span {
+  color: #778279;
+  font-size: 11px;
+}
+.student-progress-stats strong {
+  color: #28372d;
+  font-size: 24px;
+  font-weight: 600;
+}
+.student-progress-stats strong small {
+  color: #879189;
+  font-size: 12px;
+  font-weight: 400;
+}
+.student-progress-stats .MuiLinearProgress-root {
+  height: 6px;
+  border-radius: 4px;
+  background: #edf1ed;
+}
+.student-progress-stats .MuiLinearProgress-bar {
+  background: #5b9670;
+}
+.student-stat-footnote {
+  color: #8b958d;
+  font-size: 10px;
+}
+.student-progress-main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(260px, 1fr);
+  gap: 16px;
+}
+.student-chart-total {
+  color: #344139;
+  font-size: 20px;
+  font-weight: 600;
+}
+.student-chart-total small {
+  color: #849087;
+  font-size: 10px;
+  font-weight: 400;
+}
+.student-activity-chart {
+  position: relative;
+  display: flex;
+  height: 190px;
+  margin-top: 25px;
+  padding-left: 43px;
+}
+.student-chart-axis {
+  position: absolute;
+  inset: 0 auto 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #929b94;
+  font-size: 9px;
+}
+.student-chart-columns {
+  position: absolute;
+  inset: 0 0 0 47px;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 13px;
+}
+.student-chart-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  color: #879189;
+  font-size: 9px;
+}
+.student-chart-track {
+  display: flex;
+  width: 100%;
+  height: 160px;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: 1px solid #e8ece8;
+  background: repeating-linear-gradient(
+    to top,
+    transparent 0,
+    transparent 39px,
+    #edf0ed 40px
+  );
+}
+.student-chart-bar {
+  width: min(25px, 70%);
+  min-height: 4px;
+  border-radius: 4px 4px 1px 1px;
+  background: #a9c8b3;
+}
+.student-chart-bar.peak {
+  background: #df906f;
+}
+.student-achievement-panel {
+  display: flex;
+  flex-direction: column;
+}
+.student-achievement-art {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-top: 20px;
+  padding: 17px;
+  border: 1px solid #efe8d8;
+  border-radius: 7px;
+  background: #faf7ef;
+}
+.student-achievement-art > span {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 50%;
+  background: #f2e6cb;
+  color: #987a3d;
+}
+.student-achievement-art > span svg {
+  font-size: 24px;
+}
+.student-achievement-art > div {
+  display: grid;
+  gap: 4px;
+}
+.student-achievement-art strong {
+  color: #55482b;
+  font-size: 12px;
+}
+.student-achievement-art small {
+  color: #8b7d5d;
+  font-size: 10px;
+}
+.student-achievement-progress {
+  display: grid;
+  gap: 8px;
+  margin-top: 19px;
+}
+.student-achievement-progress > div {
+  display: flex;
+  justify-content: space-between;
+  color: #808a83;
+  font-size: 10px;
+}
+.student-achievement-progress strong {
+  color: #5a624f;
+  font-weight: 600;
+}
+.student-achievement-progress .MuiLinearProgress-root {
+  height: 6px;
+  border-radius: 4px;
+  background: #f0eee7;
+}
+.student-achievement-progress .MuiLinearProgress-bar {
+  background: #c5a864;
+}
+.student-achievement-progress > small {
+  color: #8a948d;
+  font-size: 9px;
+}
+.student-subject-report {
+  overflow-x: auto;
+}
+.student-subject-report .MuiTableCell-head {
+  border-bottom-color: #edf0ed;
+  color: #818b84;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+}
+.student-subject-report .MuiTableCell-body {
+  border-bottom-color: #f0f2f0;
+  color: #5d6a61;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.student-report-subject {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 180px;
+}
+.student-report-subject .student-course-icon {
+  width: 30px;
+  height: 30px;
+}
+.student-report-subject .student-course-icon svg {
+  font-size: 16px;
+}
+.student-report-subject > div {
+  display: grid;
+  gap: 3px;
+}
+.student-report-subject strong {
+  color: #354239;
+  font-size: 10px;
+  font-weight: 600;
+}
+.student-report-subject span {
+  color: #89938b;
+  font-size: 9px;
+}
+.student-report-progress {
+  display: flex;
+  width: 120px;
+  align-items: center;
+  gap: 8px;
+}
+.student-report-progress .MuiLinearProgress-root {
+  height: 5px;
+  flex: 1;
+  border-radius: 4px;
+  background: #edf1ed;
+}
+.student-report-progress .MuiLinearProgress-bar {
+  background: #5b9670;
+}
+.student-report-progress > span {
+  color: #69776e;
+  font-size: 9px;
+}
+.student-subject-report > .student-demo-note {
+  display: block;
+  margin-top: 10px;
+}
+.student-profile-grid {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.8fr) minmax(0, 1.5fr);
+  align-items: start;
+  gap: 16px;
+}
+.student-profile-card.MuiPaper-root {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  overflow: hidden;
+  padding: 0 20px 20px;
+  border: 1px solid #e8ece8;
+  text-align: center;
+}
+.student-profile-cover {
+  width: calc(100% + 40px);
+  height: 96px;
+  background: linear-gradient(120deg, #dcebe0 0%, #eef2e8 55%, #f5e9dd 100%);
+}
+.student-profile-large-avatar.MuiAvatar-root {
+  width: 72px;
+  height: 72px;
+  margin-top: -36px;
+  border: 4px solid #fff;
+  background: #e7efe9;
+  color: #356447;
+  font-size: 19px;
+  font-weight: 700;
+}
+.student-profile-card h3 {
+  margin-top: 10px;
+  color: #2c3930;
+  font-size: 16px;
+  font-weight: 600;
+}
+.student-profile-card > p {
+  margin-top: 4px;
+  color: #78837b;
+  font-size: 11px;
+}
+.student-profile-id {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 6px;
+  background: #f6f8f5;
+}
+.student-profile-id span {
+  color: #909a92;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+.student-profile-id strong {
+  color: #546359;
+  font-size: 10px;
+  font-weight: 600;
+}
+.student-profile-joined {
+  margin-top: 14px;
+  color: #849087;
+  font-size: 9px;
+}
+.student-profile-form-panel .student-panel-heading {
+  margin-bottom: 20px;
+}
+.student-profile-heading-icon {
+  color: #8c968e;
+  font-size: 18px;
+}
+.student-profile-form-fields {
+  padding-top: 2px;
+}
+.student-profile-name-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.student-profile-name-fields .MuiTextField-root .MuiInputBase-root {
+  font-size: 12px;
+}
+.student-profile-name-fields .MuiFormLabel-root,
+.student-profile-form-fields > .MuiTextField-root .MuiFormLabel-root {
+  font-size: 12px;
+}
+.student-profile-form-fields .MuiFormHelperText-root {
+  font-size: 9px;
+}
+.student-profile-security {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #78837b;
+  font-size: 10px;
+}
+.student-profile-security svg {
+  color: #7f8d82;
+  font-size: 16px;
+}
+.student-profile-save.MuiButton-root {
+  align-self: flex-start;
+}
+.student-preferences-panel {
+  grid-column: 2;
+}
+.student-preferences-panel .MuiFormControlLabel-root {
+  margin-top: 14px;
+}
+.student-preferences-panel .MuiFormControlLabel-label {
+  color: #435248;
+  font-size: 11px;
+  font-weight: 600;
+}
+.student-preference-description.MuiTypography-root {
+  margin-left: 14px;
+  color: #828c84;
+  font-size: 10px;
+}
+.student-preferences-note.MuiAlert-root {
+  margin-top: 16px;
+  font-size: 10px;
+}
+
+@media (max-width: 1100px) {
+  .student-stat-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .student-subject-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .student-dashboard-grid,
+  .student-progress-main-grid {
+    grid-template-columns: 1fr;
+  }
+  .student-profile-grid {
+    grid-template-columns: 1fr;
+  }
+  .student-preferences-panel {
+    grid-column: 1;
+  }
+}
+@media (max-width: 760px) {
+  .student-page-heading,
+  .student-lesson-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .student-page-heading > .MuiButton-root {
+    align-self: stretch;
+  }
+  .student-stat-grid {
+    grid-template-columns: 1fr;
+  }
+  .student-recent-row {
+    grid-template-columns: 26px minmax(0, 1fr) auto;
+  }
+  .student-recent-detail {
+    display: none;
+  }
+  .student-lesson-layout {
+    grid-template-columns: 1fr;
+  }
+  .student-lesson-aside {
+    grid-row: 1;
+  }
+  .student-lesson-outline .student-outline-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .student-evaluation-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .student-evaluation-card.MuiPaper-root {
+    grid-template-columns: 36px minmax(0, 1fr) auto;
+  }
+  .student-evaluation-card-meta {
+    grid-column: 2;
+  }
+  .student-evaluation-card > .MuiChip-root {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .student-evaluation-card > .MuiButton-root {
+    grid-column: 2 / -1;
+    justify-self: end;
+  }
+}
+@media (max-width: 560px) {
+  .student-page-title.MuiTypography-root {
+    font-size: 25px;
+  }
+  .student-subject-grid {
+    grid-template-columns: 1fr;
+  }
+  .student-stat-grid {
+    gap: 9px;
+  }
+  .student-subject-hero {
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .student-subject-hero-copy h2 {
+    font-size: 21px;
+  }
+  .student-course-progress-ring {
+    width: 68px;
+    height: 68px;
+    border-width: 4px;
+  }
+  .student-course-progress-ring strong {
+    font-size: 16px;
+  }
+  .student-course-progress-ring span {
+    font-size: 8px;
+  }
+  .student-subject-hero-meta {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .student-topic-list-item.MuiPaper-root {
+    grid-template-columns: 30px minmax(0, 1fr) auto;
+    gap: 8px;
+    padding: 11px;
+  }
+  .student-topic-duration {
+    display: none;
+  }
+  .student-topic-list-item .MuiButton-root {
+    grid-column: 2 / -1;
+    justify-self: end;
+  }
+  .student-lesson-meta {
+    flex-wrap: wrap;
+  }
+  .student-lesson-block.MuiPaper-root {
+    padding: 17px;
+  }
+  .student-evaluation-card.MuiPaper-root {
+    grid-template-columns: 32px minmax(0, 1fr);
+    gap: 10px;
+  }
+  .student-evaluation-card-meta {
+    grid-column: 2;
+  }
+  .student-evaluation-card > .MuiChip-root {
+    grid-column: 2;
+    grid-row: auto;
+    justify-self: start;
+  }
+  .student-evaluation-card > .MuiButton-root {
+    grid-column: 2;
+    justify-self: stretch;
+  }
+  .student-progress-stats {
+    grid-template-columns: 1fr;
+  }
+  .student-profile-name-fields {
+    grid-template-columns: 1fr;
+  }
+  .student-chart-columns {
+    gap: 7px;
+  }
+  .student-chart-track {
+    height: 140px;
+  }
+  .student-activity-chart {
+    height: 170px;
+  }
+}
+.student-progress-report-bar {
+  display: grid;
+  grid-template-columns: auto minmax(80px, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-top: 1px solid #edf0ed;
+  color: #66736a;
+  font-size: 12px;
+}
+.student-topic-lesson {
+  padding: 20px;
+}
+.student-topic-objectives {
+  margin: 14px 0;
+  color: #56645b;
+  font-size: 13px;
+}
+.student-topic-objectives ul,
+.student-lesson-block ul {
+  display: grid;
+  gap: 7px;
+  margin: 8px 0 0;
+  padding-left: 22px;
+}
+.student-lesson-block {
+  padding: 12px 0;
+  border-bottom: 1px solid #edf0ed;
+}
+.student-lesson-block:last-child {
+  border-bottom: 0;
+}
+.student-lesson-block figure {
+  margin: 0;
+}
+.student-lesson-block img,
+.student-lesson-block video {
+  display: block;
+  max-width: 100%;
+  max-height: 520px;
+  border-radius: 8px;
+}
+.student-lesson-block figcaption {
+  margin-top: 6px;
+  color: #778279;
+  font-size: 12px;
+}
+.student-loading-state {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  color: #737e76;
+  font-size: 13px;
+}
