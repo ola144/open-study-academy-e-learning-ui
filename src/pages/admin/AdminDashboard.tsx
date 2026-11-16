@@ -217,9 +217,7 @@ const AdminDashboard = () => {
             >
               <div>
                 <Typography component="h3">Recent students</Typography>
-                <Typography>
-                  Latest student registrations and invitations
-                </Typography>
+                <Typography>Latest student registrations</Typography>
               </div>
               <Box
                 component={RouterLink}
