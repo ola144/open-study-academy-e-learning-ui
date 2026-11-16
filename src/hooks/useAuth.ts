@@ -47,8 +47,9 @@ export const useLogout = () => {
 
     onSuccess: () => {
       queryClient.clear();
-
       sessionStorage.removeItem("sessionExpired");
+
+      window.location.href = "/login";
     },
   });
 };

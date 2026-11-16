@@ -8,7 +8,6 @@ import {
   DialogTitle,
 } from "@mui/material";
 import { useLogout } from "../hooks/useAuth";
-import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useState } from "react";
 
@@ -18,7 +17,6 @@ interface Props {
 }
 
 const LogoutModal = ({ open, setOpen }: Props) => {
-  const navigate = useNavigate();
   const logoutMutation = useLogout();
 
   const [loading, setLoading] = useState(false);
@@ -28,7 +26,6 @@ const LogoutModal = ({ open, setOpen }: Props) => {
     await logoutMutation
       .mutateAsync()
       .then(() => {
-        navigate("/login");
         setOpen(false);
       })
       .catch(() => {
